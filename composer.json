@@ -1,0 +1,22 @@
+{
+  "name": "ionerednew/ajax",
+  "type": "magento-module",
+  "license": "OSL-3.0",
+  "description": "Ajax module for Magento",
+  "authors":[
+    {
+      "name":"Ivan Krasnov",
+      "email":"scenox1010@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      ["app/code/community/Ionerednew/Ajax", "app/code/community/Ionerednew/Ajax"],
+      ["app/etc/modules/Ionerednew_Ajax.xml", "app/etc/modules/Ionerednew_Ajax.xml"]
+    ]
+  }
+}

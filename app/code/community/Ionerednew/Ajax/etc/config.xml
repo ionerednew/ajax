@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <global>
+        <models>
+            <ajax>
+                <class>Ionerednew_Ajax_Model</class>
+            </ajax>
+        </models>
+        <helpers>
+            <ajax>
+                <class>Ionerednew_Ajax_Helper</class>
+            </ajax>
+        </helpers>
+    </global>
+</config>
+
